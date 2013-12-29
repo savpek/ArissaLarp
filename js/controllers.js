@@ -3,6 +3,12 @@
 /* Controllers */
 
 angular.module('myApp.controllers', []).
-  controller('MyCtrl1', [function() {
+    controller('HackerPageController', [function() {
 
-  }])
+    }])
+
+    .controller('LoginController', [function() {
+        setTimeout(function () {
+            $('#toHackerPage').modal('show')
+        }, 2000);
+    }])

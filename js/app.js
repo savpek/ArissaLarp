@@ -10,6 +10,7 @@ angular.module('myApp', [
   'myApp.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {templateUrl: 'partials/partial1.html', controller: 'MyCtrl1'});
-  $routeProvider.otherwise({redirectTo: '/view1'});
+  $routeProvider.when('/hax', {templateUrl: 'partials/hackerpage.html', controller: 'HackerPageController'});
+  $routeProvider.when('/login', {templateUrl: 'partials/login.html', controller: 'LoginController'});
+  $routeProvider.otherwise({redirectTo: '/login'});
 }]);
