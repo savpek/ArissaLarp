@@ -1,0 +1,12 @@
+/* app css stylesheet */
+
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: consolas;
+    padding: 60px
+}
+
+.navbar {
+    padding-left: 30px;
+}
